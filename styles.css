@@ -8,7 +8,7 @@
 
 body {
     background-color: #f4f4f4;
-    color: #333;
+    color: #44915bc4;
     line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #333;
+    background-color: #267c2b;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ header h1 {
 /* Portfólio */
 .portfolio {
     padding: 2rem;
-    background-color: #fff;
+    background-color: #74f0887c;
     text-align: center;
 }
 
@@ -88,6 +88,6 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
-    color: #fff;
+    color: #277e4b;
     margin-top: 2rem;
 }
