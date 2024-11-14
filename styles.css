@@ -1,28 +1,93 @@
-/* Estilo do cabeçalho */
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
 header {
+    text-align: center;
+    padding: 2rem;
     background-color: #333;
-    color: white;
-    padding: 20px;
+    color: #fff;
+}
+
+header .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Sobre */
+.about {
+    padding: 2rem;
     text-align: center;
 }
 
-/* Estilo da galeria */
+.about h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Portfólio */
+.portfolio {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
     justify-content: center;
-    padding: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
-.gallery img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
+.project {
+    width: 250px;
+    background-color: #f9f9f9;
+    padding: 1rem;
     border-radius: 8px;
-    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-.gallery img:hover {
-    transform: scale(1.1);
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
 }
