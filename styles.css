@@ -8,7 +8,7 @@
 
 body {
     background-color: #f4f4f4;
-    color: #44915bc4;
+    color: #333;
     line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #267c2b;
+    background-color: #333;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ header h1 {
 /* Portfólio */
 .portfolio {
     padding: 2rem;
-    background-color: #74f0887c;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -83,11 +83,78 @@ header h1 {
     font-size: 1.2rem;
 }
 
+/* Carrossel */
+.carousel-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-track-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    text-align: center;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
 /* Rodapé */
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #333;
-    color: #277e4b;
+    color: #fff;
     margin-top: 2rem;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: #ccc;
 }

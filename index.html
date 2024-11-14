@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="profile">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aen.pr.gov.br%2FNoticia%2FAluno-Monitor-celulares-e-protagonismo-marcam-abertura-de-evento-em-Foz-do-Iguacu&psig=AOvVaw03FZkWPd_mkejnhhCA44Y0&ust=1731691834776000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjn9fes3IkDFQAAAAAdAAAAABAE alt="Foto de Perfil">
+            <img src="imagem-perfil.jpg" alt="Foto de Perfil">
             <h1>Seu Nome</h1>
             <p>Desenvolvedor Web | Designer | Criativo</p>
         </div>
@@ -17,32 +17,67 @@
 
     <section class="about">
         <h2>Sobre Mim</h2>
-        <p>Escreva uma breve descrição sobre você, suas habilidades e interesses. Fale sobre sua experiência, projetos, ou qualquer coisa que queira destacar.</p>
+        <p>Escreva uma breve descrição sobre você, suas habilidades e interesses. Fale sobre sua experiência, projetos ou qualquer coisa que queira destacar.</p>
     </section>
 
     <section class="portfolio">
         <h2>Projetos</h2>
         <div class="gallery">
             <div class="project">
-                <img src="onibusmonitoria.jpg" alt="onibus">
+                <img src="onibusmonitoria.jpg" alt="Projeto 1">
                 <h3>Projeto 1</h3>
                 <p>Descrição breve do projeto 1.</p>
             </div>
             <div class="project">
-                <img src="monitoriafoto.jpg" alt="todomundojuntofoto">
+                <img src="monitoriafoto.jpg" alt="Projeto 2">
                 <h3>Projeto 2</h3>
                 <p>Descrição breve do projeto 2.</p>
             </div>
             <div class="project">
-                <img src="valecelular.jpg" alt="valecelular">
+                <img src="valecelular.jpg" alt="Projeto 3">
                 <h3>Projeto 3</h3>
                 <p>Descrição breve do projeto 3.</p>
             </div>
         </div>
     </section>
 
+    <!-- Carrossel de Projetos Adicionais -->
+    <section class="carousel-section">
+        <h2>Mais Projetos</h2>
+        <div class="carousel">
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide current-slide">
+                        <img src="projeto4.jpg" alt="Projeto 4">
+                        <h3>Projeto 4</h3>
+                        <p>Descrição do Projeto 4.</p>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="projeto5.jpg" alt="Projeto 5">
+                        <h3>Projeto 5</h3>
+                        <p>Descrição do Projeto 5.</p>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="projeto6.jpg" alt="Projeto 6">
+                        <h3>Projeto 6</h3>
+                        <p>Descrição do Projeto 6.</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-button left-button">&lt;</button>
+            <button class="carousel-button right-button">&gt;</button>
+        </div>
+    </section>
+
     <footer>
+        <div class="socials">
+            <a href="https://github.com/seuusuario" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/seuusuario" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/seuusuario" target="_blank">Twitter</a>
+        </div>
         <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
