@@ -8,7 +8,7 @@
 
 body {
     background-color: #f4f4f4;
-    color: #333;
+    color: hsla(135, 76%, 13%, 0.725);
     line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #333;
+    background-color: #44c77a;
     color: #fff;
 }
 
@@ -40,7 +40,7 @@ header h1 {
 
 .about h2 {
     font-size: 1.8rem;
-    color: #333;
+    color: #063d1d;
     margin-bottom: 1rem;
 }
 
@@ -53,7 +53,7 @@ header h1 {
 
 .portfolio h2 {
     font-size: 1.8rem;
-    color: #333;
+    color: #022410;
     margin-bottom: 1rem;
 }
 
@@ -142,7 +142,7 @@ header h1 {
 footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #333;
+    background-color: #44c77a;
     color: #fff;
     margin-top: 2rem;
 }
